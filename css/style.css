@@ -46,7 +46,7 @@ header {
     }
 
 #Logo img {  
-        width: 61,09px ; 
+        width: 61px; 
         height: 20px;
 
 }
@@ -519,6 +519,7 @@ footer ul  {
 
 .activite__card img {
         height: 150px;
+
         
 }
 
@@ -765,7 +766,7 @@ header {
 .populaires-cards a {
            width: 100%;
 
-} ;
+} 
 
 
 .card-rating {
