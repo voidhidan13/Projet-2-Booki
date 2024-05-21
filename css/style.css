@@ -147,7 +147,9 @@ header {
      padding: 15px 16px;
 }
 
-.input_mobile {
+/****** ONLY MOBILE **********/
+
+.input_mobile {   
     display: none;
 }
 
