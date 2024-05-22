@@ -509,10 +509,6 @@ footer ul  {
 /****** Media queries ***********/
 /* TabletteMAX */ 
 
-@media(max-width:1280px){
-     
-
-}
 
 
 @media(max-width: 1280px){
@@ -530,9 +526,11 @@ footer ul  {
 
 }
 
+
+
 /* Medium devices (tablets, less than 1023px) */
 
-    @media(max-width: 1023px){
+    @media(max-width: 1024px){
        
        .header-container { 
            width: 100%;
@@ -560,13 +558,13 @@ footer ul  {
     
         .hebergements {
             width: 100%;
-            max-width: 700px;
+            
         }
     
         .populaires {
             width: 100%;
             margin-top: 50px;
-            max-width: 700px;
+           
             padding: 0px;
         }
     
@@ -589,7 +587,8 @@ footer ul  {
         }
     
         .activites {
-            max-width: 700px;
+            width: 100%;
+           
         }
     
         .activites .section-title {
@@ -643,6 +642,7 @@ footer ul  {
     
         .footer__contenair {
             margin-top: 70px;
+            
         }
     }
 
