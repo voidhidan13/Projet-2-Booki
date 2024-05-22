@@ -266,7 +266,7 @@ a {
      display: flex;
      align-items: center;
      gap: 1px;
-     margin-top: 8px ;
+     margin-bottom: 8px ;
 
 
 
@@ -301,12 +301,17 @@ a {
 .hebergements {
     width: 65%;
     background-color: var(--main-bg-color);
-   
-
-
 }
 
+.populaires-cards .card-content {
+    width: 67%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
 
+}
 
 .hebergements h2 {
     margin-top: 10px;
@@ -324,24 +329,39 @@ a {
     flex-wrap: wrap;
     gap: 30px; 
     margin-top: 35px;
+    justify-content: space-between;
 }
     
+.card__contenair .card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    justify-content: space-between;
+    flex-grow: 1;
+   
+}
+
 .card__contenair .card__content {
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      align-items: flex-start;
      box-sizing: border-box;
+     padding-left: 5px;
+     gap: 10px;
+   }
 
-    
-}
+   .card__title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 
-.card__content {
-     gap: 5px;
-     padding-left : 10px;
-     padding-right: 10px;
-     padding-bottom: 15px;
-}
+   }
+
+   .card__title h3 {
+      font-size: 16px;
+   }
+
 
 .card__title p {
    margin-top: 10px ;
@@ -352,6 +372,10 @@ a {
     font-size: 16px;
 
 }
+
+    .card__contenair a {
+        width: 30%;
+    }
 
 /****** Populaires ***********/
 .populaires {
@@ -568,7 +592,18 @@ footer ul  {
             width: 100%;
             
         }
+
+            .card__contenair a {
+                width: 100;
+            }
     
+        .card__contenair {
+            gap : 10PX;
+            display: flex;
+            
+            
+        }
+
         .populaires {
             width: 100%;
             margin-top: 50px;
