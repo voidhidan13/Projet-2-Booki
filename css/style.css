@@ -548,10 +548,18 @@ footer ul  {
         }
 
         .filter__bar {
-            flex-wrap: wrap;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            gap: 20px;
         }
 
-    
+        .filter__list {
+            gap: 15PX;
+            display: flex;
+            align-items: center;
+        }
+
         .hebergements-and-populaires {
             flex-direction: column;
         }
@@ -599,8 +607,8 @@ footer ul  {
             display: flex;
             flex-wrap: wrap;
             gap: 25px;
-            padding: 0px 20px;
             margin-top: 30px;
+            padding: 0px 20px;
         }
     
         .activite__card {
