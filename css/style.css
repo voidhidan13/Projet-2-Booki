@@ -456,9 +456,12 @@ a {
 }
 
 
+
 .activite_txt { 
     padding :20px;
     font-size: 14px;
+    flex: 1; 
+    text-wrap: wrap ;
   
 }
 
@@ -501,68 +504,148 @@ footer ul  {
     margin-bottom: 15px; 
 }
 
-
-
-
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
 /****** Media queries ***********/
-/* Medium devices (tablets, less/equal than 1024px) */
-@media (max-width: 1024px){ 
-   
-    .hebergements-and-populaires {
-        flex-direction: column;
-    }
+/* TabletteMAX */ 
 
-    .hebergements {
-        width: 100%;
-    }
+@media(max-width:1280px){
+     
 
-    .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards a {
-        width: 30%;
-    }
-
-    .populaires-cards .card-title {
-        font-size: 14px;
-    }
-
-    .populaires-cards .card-subtitle {
-        font-size: 13px;
-    }
-
-
-
-
-.activite__card img {
-        height: 150px;
-
-        
 }
 
-.activite__card .card {
-     height: 100%;
-     margin-left: 10px;
 
+@media(max-width: 1280px){
+     
+      .activite_card-content {
+       padding-right: 20px;
+       padding-left: 20px;
+       padding-top: 10px;
+       padding-bottom: 0;
      }
 
-
-.footer__contenair {
-   margin-top: 70px;
-
- }
+     .activite_txt {
+        padding: 0px;
+     }
 
 }
+
+/* Medium devices (tablets, less than 1023px) */
+
+    @media(max-width: 1023px){
+       
+       .header-container { 
+           width: 100%;
+           gap: 30px;
+       }
+
+       .navbar {
+        width: 50%;
+        max-width: 800px;
+    }
+
+        .navlinks li {
+           width: 100%;
+           flex: 1;
+        }
+
+        .filter__bar {
+            flex-wrap: wrap;
+        }
+
+    
+        .hebergements-and-populaires {
+            flex-direction: column;
+        }
+    
+        .hebergements {
+            width: 100%;
+            max-width: 700px;
+        }
+    
+        .populaires {
+            width: 100%;
+            margin-top: 50px;
+            max-width: 700px;
+            padding: 0px;
+        }
+    
+        .populaires-cards {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+    
+        .populaires-cards a {
+            width: 30%;
+        }
+    
+        .populaires-cards .card-title {
+            font-size: 14px;
+        }
+    
+        .populaires-cards .card-subtitle {
+            font-size: 13px;
+        }
+    
+        .activites {
+            max-width: 700px;
+        }
+    
+        .activites .section-title {
+            padding-left: 20px;
+        }
+    
+        .activite_contenair {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 25px;
+            padding: 0px 20px;
+            margin-top: 30px;
+        }
+    
+        .activite__card {
+            flex: 1 1 calc(25% - 25px);
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+
+        }
+    
+        .activite__card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    
+        .activite__card .card {
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            flex: 1;
+        }
+    
+        .activite__card .activite_card-content {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 15px;
+        }
+    
+        .activite__card .activite_txt {
+            padding: 0;
+        }
+    
+        .activite__card .activite_title {
+            margin: 0;
+        }
+    
+        .footer__contenair {
+            margin-top: 70px;
+        }
+    }
+
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     /* ... */
