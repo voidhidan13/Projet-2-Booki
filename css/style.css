@@ -326,9 +326,9 @@ a {
 
 .card__contenair {
     display: flex;
-    flex-wrap: wrap;
     gap: 30px; 
     margin-top: 35px;
+    flex-wrap: wrap;
 }
     
 .card__contenair .card{
@@ -933,7 +933,40 @@ header {
 .card__contenair {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     gap: 34px;
+    width: 100%;
+
+}
+
+.card__contenair .card {
+    padding: 0;
+    margin: 0;
+    width: calc(100% - 20px); 
+}
+
+.card__contenair .card__content {
+    gap: 15PX;
+    padding-left: 15px;
+    margin-top: 5px;
+   
+}
+
+.card__contenair .card__title {
+    gap: 0px;
+   
+}
+
+
+
+.card__contenair a {
+    width: 100%;
+    flex-grow: 1;
+}
+
+.card__contenair .card__rating{
+    padding-bottom: 10px;
+    
 }
 
 .hebergements {
