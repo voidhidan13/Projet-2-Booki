@@ -528,7 +528,7 @@ footer ul  {
 
 
 
-/* Medium devices (tablets, less than 1023px) */
+/* Medium devices (tablets, less equal than 1024px) */
 
     @media(max-width: 1024px){
        
