@@ -358,7 +358,8 @@ a {
    }
 
    .card__title h3 {
-      font-size: 16px;
+      font-size: 14px;
+      text-wrap: nowrap;
    }
 
 
