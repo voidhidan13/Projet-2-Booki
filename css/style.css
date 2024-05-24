@@ -597,10 +597,6 @@ footer ul  {
             
         }
 
-            .card__contenair a {
-                width: 100;
-            }
-    
         .card__contenair {
             gap : 30PX;
             display: flex;
@@ -733,7 +729,6 @@ header {
     display: flex;
     padding: 0px;
     height: 19px;
-    width: 61,09px;
     max-width: 100%;
 }
 
