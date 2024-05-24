@@ -266,7 +266,7 @@ a {
      display: flex;
      align-items: center;
      gap: 1px;
-     margin-bottom: 8px ;
+     margin-bottom: 10px ;
 
 
 
@@ -327,7 +327,7 @@ a {
 .card__contenair {
     display: flex;
     gap: 30px; 
-    margin-top: 35px;
+    margin-top: 0px;
     flex-wrap: wrap;
 }
     
@@ -347,18 +347,21 @@ a {
      align-items: flex-start;
      box-sizing: border-box;
      padding-left: 5px;
-     gap: 10px;
+     padding-top: 3px;
+     gap: 12px;
    }
 
    .card__title {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+   
 
    }
 
    .card__title h3 {
-      font-size: 14px;
+      font-size: 16px;
+      font-weight: 700;
       text-wrap: nowrap;
    }
 
@@ -590,6 +593,7 @@ footer ul  {
     
         .hebergements {
             width: 100%;
+            margin-bottom: 0px;
             
         }
 
@@ -598,7 +602,7 @@ footer ul  {
             }
     
         .card__contenair {
-            gap : 10PX;
+            gap : 30PX;
             display: flex;
             
             
@@ -606,7 +610,7 @@ footer ul  {
 
         .populaires {
             width: 100%;
-            margin-top: 50px;
+            margin-top: 0px;
            
             padding: 0px;
         }
@@ -615,6 +619,7 @@ footer ul  {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
+            gap: 15px;
         }
     
         .populaires-cards a {
@@ -673,6 +678,7 @@ footer ul  {
             flex-direction: column;
             justify-content: space-between;
             padding: 15px;
+    
         }
     
         .activite__card .activite_txt {
