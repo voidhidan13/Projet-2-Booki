@@ -838,11 +838,11 @@ header {
 
 .filter {
     flex: 1 1 calc(50% - 10px); 
-    
-}
-    
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+} 
 .filter__bar {
-        align-items: center;
         flex-wrap: wrap;
         width: auto;
         height: auto;
@@ -854,6 +854,7 @@ header {
 
 .filter__list {
     flex-wrap: wrap;
+    
        
 }
 
@@ -868,6 +869,8 @@ header {
 .filter__title h2 {
         margin-left: 15px;
         font-size: 20px;
+        display: flex;
+        justify-content: flex-start;
 }
 
 .hebergements-and-populaires {
@@ -889,11 +892,18 @@ header {
      width: 100%;
 }
 
+.populaires-title {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+
 .populaires-cards{
       display: flex;
       flex-direction: column;
       justify-content: space-between;
       width: 100%;
+      gap: 20px;
 
       
 }
@@ -904,6 +914,7 @@ header {
     align-items: center;
     flex: 1;
     padding: 0;
+    margin-top: 0px;
 }
 
 .populaires-cards .card img {
