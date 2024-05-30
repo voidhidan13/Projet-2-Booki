@@ -255,6 +255,7 @@ a {
     object-fit: cover;
     height: 124px;
     border-radius: 20px 20px 0 0; 
+    
 }
 
 .card__title {
@@ -437,14 +438,17 @@ a {
 
 /****** ACTIVITES ***********/
 
+.activites {
+    width: 100%;
+}
 
 .activite_contenair {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 15PX;
-    padding-left: 30px;
-    padding-right: 30px;
+    gap: 5PX;
+    padding-left: 20px;
+    padding-right: 20px;
    
     
 }
@@ -456,7 +460,8 @@ a {
   
 
 .activite__card {
-    flex: 1 1;
+    flex: 1 0 21%;
+    width: 100%;
 
     
 }
@@ -468,8 +473,14 @@ a {
     margin: 10px;
     padding: 0;
     height: 439px;
-
   
+}
+
+.activite_card-content {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+
 }
 
 
@@ -485,10 +496,9 @@ a {
 
 
 .activite_txt { 
-    padding :20px;
     font-size: 14px;
-    flex: 1; 
     text-wrap: wrap ;
+    padding: 20px;
   
 }
 
@@ -535,23 +545,43 @@ footer ul  {
 
 /****** Media queries ***********/
 /* TabletteMAX */ 
-
-
-
-@media(max-width: 1280px){
-     
-      .activite_card-content {
-       padding-right: 20px;
-       padding-left: 20px;
-       padding-top: 10px;
-       padding-bottom: 0;
-     }
-
-     .activite_txt {
-        padding: 0px;
-     }
+@media(max-width: 1284px){
+.activite_txt {
+    padding-right: 0px;
+    padding-left: 7px;
+    font-size: 12px;
+}
 
 }
+
+
+
+@media(max-width: 1115px){
+     
+
+     .card__contenair {
+        width: 100%;
+        gap: 20px;
+     }
+
+     .card__contenair .card__content {
+
+        padding-left: 5px;
+        padding-right: 10px;
+        width: 100%;
+
+     }
+
+
+     .card__title h3 {
+        font-size: 14px;
+
+     }
+     }  
+
+
+
+
 
 
 
